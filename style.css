@@ -1,0 +1,13 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
+    border: solid red 5px;
+}
+
+.cell {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
