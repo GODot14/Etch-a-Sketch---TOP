@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -9,5 +14,12 @@
 .cell {
     display: flex;
     flex-direction: row;
-    background-color: lightblue;
+}
+
+.cell:hover {
+    background-color: black;
+}
+
+.cell.black { 
+    background-color: black;
 }
